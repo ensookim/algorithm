@@ -10,5 +10,5 @@ lst.sort(key = len)
 for i in lst:
     print(i)
 
-# print(type(lst))
+# print(type(lst)) 
 # print(type(n))
