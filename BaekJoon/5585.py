@@ -8,3 +8,4 @@ for coin in coins:
     count += n//coin
     n%=coin
 print(count)
+
