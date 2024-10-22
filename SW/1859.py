@@ -15,3 +15,10 @@ for case_number in range(1, T + 1):
 
     # 결과 출력
     print(f"#{case_number} {max_profit}")
+    
+    
+    
+    # 입력받고
+    # for로 날 수 입력받고 매매가 받고 최대값과 이익넣고
+    # for 각 리스트 역순으로 돌면서 최대값보다 크면 최대값 바꾸고
+    # 아니면 이윤 = 최대값 - 현제 가격
