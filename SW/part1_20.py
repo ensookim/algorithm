@@ -28,11 +28,12 @@ def format_date(year, month, day):
 if __name__ == '__main__': 
    
     T = int(input())
-    
+ 
     for t in range(1, T+1):
+        
         date_input = input()
         if len(date_input) != 8 or not date_input.isdigit():
-            print(-1)
+            print(f"#{t} -1")
             continue
         
         year = int(date_input[:4])
@@ -42,4 +43,4 @@ if __name__ == '__main__':
         if is_valid_date(year, month, day):
             print(f"#{t} {format_date(year, month, day)}") 
         else:
-            print(-1)
+            print(f"#{t} -1")
