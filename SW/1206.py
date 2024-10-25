@@ -27,7 +27,6 @@ def apartments(N, heights):
 
 for t in range(1, 11):
     N = int(input())  # 건물의 개수
-    
     heights = list(map(int, input().split()))  # 각 건물의 높이 리스트 입력받고
     result = apartments(N, heights)
     print(f"#{t} {result}")
