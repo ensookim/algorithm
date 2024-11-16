@@ -1,13 +1,11 @@
-# ATM 
+N = int(input())
+time = list(map(int, input().split()))
+result = 0
+current_sum = 0
+time.sort()
 
+for t in time:
+    current_sum += t
+    result += current_sum
 
-n = int(input())
-people = list(map(int, input().split()))
-people.sort()
-answer= 0
-
-for i in range(1, n+1):
-    answer = answer + sum(people[:i])
-    
-
-print(answer)
+print(result)
