@@ -1,11 +1,10 @@
 T = int(input())  # 테스트 케이스 수
 
 for t in range(1, T + 1):
-    # 입력 처리
     N, M = map(int, input().split())
     fly_map = [list(map(int, input().split())) for _ in range(N)]
 
-    # 누적합 계산
+    # 누적합 계산 DP
     prefix_sum = [[0] * N for _ in range(N)]
     for i in range(N):
         for j in range(N):
