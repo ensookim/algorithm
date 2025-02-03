@@ -1,16 +1,4 @@
-
-def maxff(sel,boom):
-    step= 0
-    for i in range(1,sel+1):
-        if step+i == boom:
-            continue
-        else:
-            step+=i
-
-    return step
-
-T = int(input())
-
-for testCase in range(1, T + 1):
-    a, b = map(int, input().split())
-    print(maxff(a, b))
+1. 일 시작할 때 세금 신고 안하기로 함
+2. 알고보니 세금 신고 되어있어서 고용노동부에서 전화옴 ( 세금신고 되어있는데요?)
+3. 세금신고가 되어있으면 통장에 입금 내역을 캡처해서 서류제출해야함
+4. 서류제출 함

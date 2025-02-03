@@ -1,7 +1,3 @@
-# 달팽이 DP
-from docutils.utils.math.latex2mathml import mover
-from patsy.eval import test_ast_names
-from sympy.integrals.manualintegrate import tansec_seceven
 
 # 입력 T 받고
 # 우 하 좌 상 우
